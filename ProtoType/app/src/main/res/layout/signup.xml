@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/white"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="597dp">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Gebruikersnaam"
+                android:id="@+id/textView5"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:layout_weight="0.16"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:text="Passwoord"
+                android:id="@+id/textView6"
+                android:textColor="@color/black"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bevestig passwoord"
+                android:id="@+id/textView8"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:layout_weight="0.13" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Naam"
+                android:id="@+id/textView9"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:layout_weight="0.06" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Voornaam"
+                android:id="@+id/textView10"
+                android:textSize="35dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Geboortedatum"
+                android:id="@+id/textView11"
+                android:textSize="35dp"
+                android:textColor="@color/black"
+                android:layout_weight="0.11" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Email"
+                android:id="@+id/textView12"
+                android:textColor="@color/black"
+                android:textSize="35dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Kamernummer"
+                android:id="@+id/textView13"
+                android:textColor="@color/black"
+                android:textSize="35dp"
+                android:layout_weight="0.25" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Rol"
+                android:id="@+id/textView14"
+                android:textColor="@color/black"
+                android:textSize="35dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="621dp">
+
+            <EditText
+                android:id="@+id/gebruikersnaam"
+                android:hint="Gebruikersnaam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textColor="@android:color/white"
+                android:inputType="textPersonName">
+
+                <requestFocus/>
+            </EditText>
+
+            <EditText
+                android:id="@+id/wachtwoord"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Passwoord"
+                android:inputType="textPassword"
+                android:textSize="35dp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/Confirmwachtwoord"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Bevestig passwoord"
+                android:inputType="textPassword"
+                android:textSize="35dp"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/last"
+                android:textSize="35dp"
+                android:hint="Naam"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/first"
+                android:textSize="35dp"
+                android:hint="Voornaam"
+                android:textColor="@android:color/white" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="74dp"
+                android:weightSum="1">
+
+                <EditText
+                    android:layout_width="72dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/gbdateDag"
+                    android:hint="DD"
+                    android:textSize="35dp"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="_"
+                    android:id="@+id/textView17"
+                    android:textColor="@color/black"
+                    android:textSize="35dp" />
+
+                <EditText
+                    android:layout_width="89dp"
+                    android:layout_height="match_parent"
+                    android:ems="10"
+                    android:id="@+id/gbdateMaand"
+                    android:hint="MM"
+                    android:textSize="35dp"
+                    android:textColor="@android:color/white"
+                    android:inputType="number" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="_"
+                    android:id="@+id/textView18"
+                    android:textSize="35dp"
+                    android:textColor="@color/black" />
+
+                <EditText
+                    android:layout_width="114dp"
+                    android:layout_height="match_parent"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/gbdateJaar"
+                    android:textSize="35dp"
+                    android:textColor="@android:color/white"
+                    android:hint="YYYY" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:ems="10"
+                    android:id="@+id/email"
+                    android:textSize="35dp"
+                    android:hint="Email"
+                    android:textColor="@android:color/white"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/imageView7"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/kamernr"
+                android:hint="Kamernummer"
+                android:textSize="35dp"
+                android:textColor="@android:color/white" />
+
+            <Spinner
+                android:id="@+id/rolkeuze"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:spinnerMode="dropdown"
+                android:entries="@array/country_arrays"
+                android:prompt="@string/country_prompt"
+                android:background="@color/gray"
+                android:clickable="true" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/persoontoevoegen"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Verwerk"
+        android:layout_marginBottom="60dp"
+        android:textColor="@color/white"
+        android:background="@color/blue" />
+
+</LinearLayout>

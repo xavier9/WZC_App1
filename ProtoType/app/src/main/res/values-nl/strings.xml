@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_Zondag">Zon</string>
+    <string name="text_Maandag">Maan</string>
+    <string name="text_disdag">Dins</string>
+    <string name="text_woensdag">Woens</string>
+    <string name="text_donderdag">Donder</string>
+    <string name="text_vrijdag">Vrij</string>
+    <string name="text_zaterdag">Zater</string>
+    <string name="label_smorgens">s\'morgesn</string>
+
+</resources>
